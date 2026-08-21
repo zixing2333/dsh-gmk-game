@@ -1,7 +1,7 @@
 {
   "name": "dsh-gmk-game",
-  "version": "1.0.1",
-  "description": "A beautiful Gomoku (Five in a Row) game plugin for DeepSeek Harness with glassmorphism UI and AI opponent, displayed in the bottom-right corner.",
+  "version": "1.1.0",
+  "description": "A beautiful Gomoku (Five in a Row) game plugin for DeepSeek Harness with glassmorphism UI, smart AI opponent, hover preview, stone drop animation, and move counter.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
