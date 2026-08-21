@@ -1,6 +1,6 @@
 {
   "name": "dsh-gmk-game",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful Gomoku (Five in a Row) game plugin for DeepSeek Harness with glassmorphism UI and AI opponent, displayed in the bottom-right corner.",
   "type": "module",
   "main": "lib/index.js",
@@ -17,8 +17,7 @@
     "client": {
       "inject": [
         "@deepseek-ai/dsh-client-runtime",
-        "@deepseek-ai/dsh-client-ui-slots",
-        "@deepseek-ai/dsh-client-ui-theme"
+        "@deepseek-ai/dsh-client-ui-slots"
       ],
       "platform": "web"
     }
@@ -38,11 +37,10 @@
     "url": "git+https://github.com/zixing2333/dsh-gmk-game.git"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-client-runtime": "*",
-    "@deepseek-ai/dsh-client-ui-slots": "*",
-    "@deepseek-ai/dsh-client-ui-theme": "*"
+    "react": ">=18.0.0",
+    "@deepseek-ai/cordis": ">=4.0.0",
+    "@deepseek-ai/dsh-client-runtime": ">=0.1.0",
+    "@deepseek-ai/dsh-client-ui-slots": ">=0.1.0"
   },
   "files": [
     "lib/index.js",

@@ -2,6 +2,8 @@
 
 一个为 DeepSeek Harness (DSH) 设计的优雅五子棋游戏插件，具有毛玻璃半透明UI效果和内置AI对手。安装后游戏面板会显示在页面右下角，你可以随时和AI下五子棋。
 
+![sha256-57a308bcd6cfb57f144672447-4825c95b-materialized.png](../.dsh-vision-router/artifacts/sha256-57a308bcd6cfb57f144672447-4825c95b-materialized.png)
+
 ## ✨ 特性
 
 - 🎨 **毛玻璃半透明设计** - 默认70%透明度，鼠标悬停时完全显示，不遮挡聊天内容
@@ -71,7 +73,6 @@ dsh-gmk-game/
 ```
 
 ## 📄 开源协议
-
 MIT License
 
 ## 👤 作者
